@@ -342,17 +342,17 @@ $colors: (
 	@each $shade, $hex in $color {
 		@if $shade == "shade-500" {
 			.#{$color_name} {
-				background-color: $hex;
+				background-color: $hex !important;
 			}
 			.#{$color_name}-text {
-				color: $hex;
+				color: $hex !important;
 			}
 		} @else {
-			.#{$color_name} .#{$shade} {
-				background-color: $hex;
+			.#{$color_name}.#{$shade} {
+				background-color: $hex !important;
 			}
-			.#{$color_name}-text .text-#{$shade} {
-				color: $hex;
+			.#{$color_name}-text.text-#{$shade} {
+				color: $hex !important;
 			}
 		}
 	}
@@ -360,9 +360,9 @@ $colors: (
 
 @each $color_name, $hex in $others {
 	.#{$color_name} {
-		background-color: $hex;
+		background-color: $hex !important;
 	}
 	.#{$color_name}-text {
-		color: $hex;
+		color: $hex !important;
 	}
 }
