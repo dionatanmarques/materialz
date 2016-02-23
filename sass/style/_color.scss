@@ -1,0 +1,368 @@
+// Color Palette https://www.google.com/design/spec/style/color.html
+
+$red: (
+	"shade-50": #ffebee,
+	"shade-100": #ffcdd2,
+	"shade-200": #ef9a9a,
+	"shade-300": #e57373,
+	"shade-400": #ef5350,
+	"shade-500": #f44336,
+	"shade-600": #e53935,
+	"shade-700": #d32f2f,
+	"shade-800": #c62828,
+	"shade-900": #b71c1c,
+	"shade-a100": #ff8a80,
+	"shade-a200": #ff5252,
+	"shade-a400": #ff1744,
+	"shade-a700": #d50000
+);
+
+$pink: (
+	"shade-50": #fce4ec,
+	"shade-100": #f8bbd0,
+	"shade-200": #f48fb1,
+	"shade-300": #f06292,
+	"shade-400": #ec407a,
+	"shade-500": #e91e63,
+	"shade-600": #d81b60,
+	"shade-700": #c2185b,
+	"shade-800": #ad1457,
+	"shade-900": #880e4f,
+	"shade-a100": #ff80ab,
+	"shade-a200": #ff4081,
+	"shade-a400": #f50057,
+	"shade-a700": #c51162
+);
+
+$purple: (
+	"shade-50": #f3e5f5,
+	"shade-100": #e1bee7,
+	"shade-200": #ce93d8,
+	"shade-300": #ba68c8,
+	"shade-400": #ab47bc,
+	"shade-500": #9c27b0,
+	"shade-600": #8e24aa,
+	"shade-700": #7b1fa2,
+	"shade-800": #6a1b9a,
+	"shade-900": #4a148c,
+	"shade-a100": #ea80fc,
+	"shade-a200": #e040fb,
+	"shade-a400": #d500f9,
+	"shade-a700": #aa00ff
+);
+
+$deep-purple: (
+	"shade-50": #ede7f6,
+	"shade-100": #d1c4e9,
+	"shade-200": #b39ddb,
+	"shade-300": #9575cd,
+	"shade-400": #7e57c2,
+	"shade-500": #673ab7,
+	"shade-600": #5e35b1,
+	"shade-700": #512da8,
+	"shade-800": #4527a0,
+	"shade-900": #311b92,
+	"shade-a100": #b388ff,
+	"shade-a200": #7c4dff,
+	"shade-a400": #651fff,
+	"shade-a700": #6200ea
+);
+
+$indigo: (
+	"shade-50": #e8eaf6,
+	"shade-100": #c5cae9,
+	"shade-200": #9fa8da,
+	"shade-300": #7986cb,
+	"shade-400": #5c6bc0,
+	"shade-500": #3f51b5,
+	"shade-600": #3949ab,
+	"shade-700": #303f9f,
+	"shade-800": #283593,
+	"shade-900": #1a237e,
+	"shade-a100": #8c9eff,
+	"shade-a200": #536dfe,
+	"shade-a400": #3d5afe,
+	"shade-a700": #304ffe
+);
+
+$blue: (
+	"shade-50": #e3f2fd,
+	"shade-100": #bbdefb,
+	"shade-200": #90caf9,
+	"shade-300": #64b5f6,
+	"shade-400": #42a5f5,
+	"shade-500": #2196f3,
+	"shade-600": #1e88e5,
+	"shade-700": #1976d2,
+	"shade-800": #1565c0,
+	"shade-900": #0d47a1,
+	"shade-a100": #82b1ff,
+	"shade-a200": #448aff,
+	"shade-a400": #2979ff,
+	"shade-a700": #2962ff
+);
+
+$light-blue: (
+	"shade-50": #e1f5fe,
+	"shade-100": #b3e5fc,
+	"shade-200": #81d4fa,
+	"shade-300": #4fc3f7,
+	"shade-400": #29b6f6,
+	"shade-500": #03a9f4,
+	"shade-600": #039be5,
+	"shade-700": #0288d1,
+	"shade-800": #0277bd,
+	"shade-900": #01579b,
+	"shade-a100": #80d8ff,
+	"shade-a200": #40c4ff,
+	"shade-a400": #00b0ff,
+	"shade-a700": #0091ea
+);
+
+$cyan: (
+	"shade-50": #e0f7fa,
+	"shade-100": #b2ebf2,
+	"shade-200": #80deea,
+	"shade-300": #4dd0e1,
+	"shade-400": #26c6da,
+	"shade-500": #00bcd4,
+	"shade-600": #00acc1,
+	"shade-700": #0097a7,
+	"shade-800": #00838f,
+	"shade-900": #006064,
+	"shade-a100": #84ffff,
+	"shade-a200": #18ffff,
+	"shade-a400": #00e5ff,
+	"shade-a700": #00b8d4
+);
+
+$teal: (
+	"shade-50": #e0f2f1,
+	"shade-100": #b2dfdb,
+	"shade-200": #80cbc4,
+	"shade-300": #4db6ac,
+	"shade-400": #26a69a,
+	"shade-500": #009688,
+	"shade-600": #00897b,
+	"shade-700": #00796b,
+	"shade-800": #00695c,
+	"shade-900": #004d40,
+	"shade-a100": #a7ffeb,
+	"shade-a200": #64ffda,
+	"shade-a400": #1de9b6,
+	"shade-a700": #00bfa5
+);
+
+$green: (
+	"shade-50": #e8f5e9,
+	"shade-100": #c8e6c9,
+	"shade-200": #a5d6a7,
+	"shade-300": #81c784,
+	"shade-400": #66bb6a,
+	"shade-500": #4caf50,
+	"shade-600": #43a047,
+	"shade-700": #388e3c,
+	"shade-800": #2e7d32,
+	"shade-900": #1b5e20,
+	"shade-a100": #b9f6ca,
+	"shade-a200": #69f0ae,
+	"shade-a400": #00e676,
+	"shade-a700": #00c853
+);
+
+$light-green: (
+	"shade-50": #f1f8e9,
+	"shade-100": #dcedc8,
+	"shade-200": #c5e1a5,
+	"shade-300": #aed581,
+	"shade-400": #9ccc65,
+	"shade-500": #8bc34a,
+	"shade-600": #7cb342,
+	"shade-700": #689f38,
+	"shade-800": #558b2f,
+	"shade-900": #33691e,
+	"shade-a100": #ccff90,
+	"shade-a200": #b2ff59,
+	"shade-a400": #76ff03,
+	"shade-a700": #64dd17
+);
+
+$lime: (
+	"shade-50": #f9fbe7,
+	"shade-100": #f0f4c3,
+	"shade-200": #e6ee9c,
+	"shade-300": #dce775,
+	"shade-400": #d4e157,
+	"shade-500": #cddc39,
+	"shade-600": #c0ca33,
+	"shade-700": #afb42b,
+	"shade-800": #9e9d24,
+	"shade-900": #827717,
+	"shade-a100": #f4ff81,
+	"shade-a200": #eeff41,
+	"shade-a400": #c6ff00,
+	"shade-a700": #aeea00
+);
+
+$yellow: (
+	"shade-50": #fffde7,
+	"shade-100": #fff9c4,
+	"shade-200": #fff59d,
+	"shade-300": #fff176,
+	"shade-400": #ffee58,
+	"shade-500": #ffeb3b,
+	"shade-600": #fdd835,
+	"shade-700": #fbc02d,
+	"shade-800": #f9a825,
+	"shade-900": #f57f17,
+	"shade-a100": #ffff8d,
+	"shade-a200": #ffff00,
+	"shade-a400": #ffea00,
+	"shade-a700": #ffd600
+);
+
+$amber: (
+	"shade-50": #fff8e1,
+	"shade-100": #ffecb3,
+	"shade-200": #ffe082,
+	"shade-300": #ffd54f,
+	"shade-400": #ffca28,
+	"shade-500": #ffc107,
+	"shade-600": #ffb300,
+	"shade-700": #ffa000,
+	"shade-800": #ff8f00,
+	"shade-900": #ff6f00,
+	"shade-a100": #ffe57f,
+	"shade-a200": #ffd740,
+	"shade-a400": #ffc400,
+	"shade-a700": #ffab00
+);
+
+$orange: (
+	"shade-50": #fff3e0,
+	"shade-100": #ffe0b2,
+	"shade-200": #ffcc80,
+	"shade-300": #ffb74d,
+	"shade-400": #ffa726,
+	"shade-500": #ff9800,
+	"shade-600": #fb8c00,
+	"shade-700": #f57c00,
+	"shade-800": #ef6c00,
+	"shade-900": #e65100,
+	"shade-a100": #ffd180,
+	"shade-a200": #ffab40,
+	"shade-a400": #ff9100,
+	"shade-a700": #ff6d00
+);
+
+$deep-orange: (
+	"shade-50": #fbe9e7,
+	"shade-100": #ffccbc,
+	"shade-200": #ffab91,
+	"shade-300": #ff8a65,
+	"shade-400": #ff7043,
+	"shade-500": #ff5722,
+	"shade-600": #f4511e,
+	"shade-700": #e64a19,
+	"shade-800": #d84315,
+	"shade-900": #bf360c,
+	"shade-a100": #ff9e80,
+	"shade-a200": #ff6e40,
+	"shade-a400": #ff3d00,
+	"shade-a700": #dd2c00
+);
+
+$brown: (
+	"shade-50": #efebe9,
+	"shade-100": #d7ccc8,
+	"shade-200": #bcaaa4,
+	"shade-300": #a1887f,
+	"shade-400": #8d6e63,
+	"shade-500": #795548,
+	"shade-600": #6d4c41,
+	"shade-700": #5d4037,
+	"shade-800": #4e342e,
+	"shade-900": #3e2723
+);
+
+$grey: (
+	"shade-50": #fafafa,
+	"shade-100": #f5f5f5,
+	"shade-200": #eeeeee,
+	"shade-300": #e0e0e0,
+	"shade-400": #bdbdbd,
+	"shade-500": #9e9e9e,
+	"shade-600": #757575,
+	"shade-700": #616161,
+	"shade-800": #424242,
+	"shade-900": #212121
+);
+
+$blue-grey: (
+	"shade-50": #eceff1,
+	"shade-100": #cfd8dc,
+	"shade-200": #b0bec5,
+	"shade-300": #90a4ae,
+	"shade-400": #78909c,
+	"shade-500": #607d8b,
+	"shade-600": #546e7a,
+	"shade-700": #455a64,
+	"shade-800": #37474f,
+	"shade-900": #263238
+);
+
+$others: (
+	"black": #000000,
+	"white": #ffffff
+);
+
+$colors: (
+	"red": $red,
+	"pink": $pink,
+	"purple": $purple,
+	"deep-purple": $deep-purple,
+	"indigo": $indigo,
+	"blue": $blue,
+	"light-blue": $light-blue,
+	"cyan": $cyan,
+	"teal": $teal,
+	"green": $green,
+	"light-green": $light-green,
+	"lime": $lime,
+	"yellow": $yellow,
+	"amber": $amber,
+	"orange": $orange,
+	"deep-orange": $deep-orange,
+	"brown": $brown,
+	"blue-grey": $blue-grey,
+	"grey": $grey
+);
+
+@each $color_name, $color in $colors {
+	@each $shade, $hex in $color {
+		@if $shade == "shade-500" {
+			.#{$color_name} {
+				background-color: $hex;
+			}
+			.#{$color_name}-text {
+				color: $hex;
+			}
+		} @else {
+			.#{$color_name} .#{$shade} {
+				background-color: $hex;
+			}
+			.#{$color_name}-text .text-#{$shade} {
+				color: $hex;
+			}
+		}
+	}
+}
+
+@each $color_name, $hex in $others {
+	.#{$color_name} {
+		background-color: $hex;
+	}
+	.#{$color_name}-text {
+		color: $hex;
+	}
+}
